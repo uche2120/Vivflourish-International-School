@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Details - Vivflourish International School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root{
+            --primary-purple:#6a0dad; --secondary-gold:#ffd700; --light-gray:#f8f9fa; --dark-gray:#495057; --white:#fff;
+        }
+        body{font-family:'Poppins',sans-serif;background:var(--white);color:var(--dark-gray);margin:0;padding:0}
+        .container{max-width:1100px;margin:0 auto;padding:28px}
+        header{background:linear-gradient(90deg,var(--primary-purple),#4b0082);color:var(--white);padding:18px}
+        header a{color:var(--white);text-decoration:none;font-weight:600}
+        .back{display:inline-flex;gap:10px;align-items:center}
+        h2.section-title{font-family:'Playfair Display',serif;color:var(--primary-purple);text-align:left;margin:26px 0}
+        .section-title:after{content:'';display:block;width:70px;height:4px;background:var(--secondary-gold);margin-top:10px}
+        .card{background:#fff;border-radius:12px;padding:22px;margin-bottom:18px;box-shadow:0 10px 30px rgba(16,24,40,0.06)}
+        .card-icon{width:60px;height:60px;border-radius:50%;background:#f3e8ff;color:var(--primary-purple);display:inline-flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:14px}
+        ul{padding-left:18px}
+        .top-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+        .explore-btn{padding:10px 16px;border-radius:10px;background:linear-gradient(90deg,var(--secondary-gold),#ffdf6b);color:#2b0b53;text-decoration:none;font-weight:700;box-shadow:0 8px 30px rgba(106,13,173,0.08)}
+        footer{padding:28px;text-align:center;color:var(--dark-gray);border-top:1px solid #eee;margin-top:40px}
+        /* Scroll reveal animations */
+        .animate-on-scroll{
+            opacity: 0;
+            transform: translateY(18px);
+            transition: transform 640ms cubic-bezier(.2,.9,.2,1), opacity 420ms ease;
+            will-change: transform, opacity;
+        }
+        .animate-on-scroll.from-top{ transform: translateY(-18px); }
+        .animate-on-scroll.in-view{ opacity: 1; transform: translateY(0); }
+
+        @media (prefers-reduced-motion: reduce) {
+            .animate-on-scroll { transition: none; transform: none; opacity: 1 !important; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a class="back" href="Index.html"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="academics">
+            <h2 class="section-title">Academic Programmes</h2>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                <h3>Primary School</h3>
+                <p>Our Primary School programme provides a strong foundation in core subjects while encouraging curiosity and love for learning. We focus on:</p>
+                <ul>
+                    <li>Literacy and Numeracy Foundations</li>
+                    <li>Science and Environmental Awareness</li>
+                    <li>Social Studies and Civic Education</li>
+                    <li>Creative Arts and Expression</li>
+                    <li>Physical and Health Education</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-user-graduate"></i></div>
+                <h3>Junior Secondary School (JSS 1–3)</h3>
+                <p>Our Junior Secondary programme prepares students for senior studies while developing critical thinking and problem-solving skills. Key areas include:</p>
+                <ul>
+                    <li>Mathematics and Sciences</li>
+                    <li>English Language and Literature</li>
+                    <li>Technology and Computer Studies</li>
+                    <li>Business and Entrepreneurial Skills</li>
+                    <li>Pre-Vocational Studies</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-hands-helping"></i></div>
+                <h3>Co‑curricular & Life Skills Programmes</h3>
+                <p>Beyond academics, we offer comprehensive programmes that develop well-rounded individuals:</p>
+                <ul>
+                    <li>Sports and Physical Development</li>
+                    <li>Music, Art, and Drama Clubs</li>
+                    <li>Leadership and Public Speaking</li>
+                    <li>Environmental and Community Service</li>
+                    <li>Digital Literacy and Coding</li>
+                    <li>Financial Literacy and Entrepreneurship</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="admissions">
+            <h2 class="section-title">Admissions Process</h2>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-question-circle"></i></div>
+                <h3>Step 1: Make an Enquiry</h3>
+                <p>Begin by completing our online enquiry form or contacting our admissions office. We'll provide you with detailed information about our programmes, fees, and schedule a personalized school tour.</p>
+                <p>Our admissions team is available to answer all your questions and help you understand what makes Vivflourish unique.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-school"></i></div>
+                <h3>Step 2: School Tour & Assessment</h3>
+                <p>Visit our campus to experience our learning environment firsthand. Your child will complete a friendly assessment to help us understand their current level and learning needs.</p>
+                <p>Tours are available weekdays from 9am to 2pm. We recommend allowing 1-2 hours for the complete tour and assessment process.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-file-signature"></i></div>
+                <h3>Step 3: Registration</h3>
+                <p>Once admission is offered, complete the registration process by submitting required documents and paying the registration fee. We'll guide you through every step.</p>
+                <p>Required documents include birth certificate, previous school reports, immunization records, and passport photographs.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-door-open"></i></div>
+                <h3>Step 4: Resumption</h3>
+                <p>Welcome to the Vivflourish family! Before resumption, you'll receive an orientation package including school calendar, uniform requirements, book lists, and other essential information.</p>
+                <p>We host a New Parents Orientation to ensure a smooth transition for both students and families.</p>
+            </div>
+        </section>
+
+        <section id="activities">
+            <h2 class="section-title">Activities & Excursions</h2>
+            <p style="max-width:880px;color:var(--dark-gray)">We believe learning extends beyond the classroom. Our carefully planned excursions connect classroom knowledge with real-world experiences, fostering cultural awareness and historical understanding.</p>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-landmark"></i></div>
+                <h3>Historical & Cultural Sites</h3>
+                <p>Our students explore Nigeria's rich history through visits to significant sites:</p>
+                <ul>
+                    <li><strong>Badagry Slave Trade House:</strong> Understanding history and resilience</li>
+                    <li><strong>National Museum:</strong> Appreciating Nigeria's cultural heritage</li>
+                    <li><strong>First Storey Building in Nigeria:</strong> Exploring architectural history</li>
+                    <li><strong>Point of No Return:</strong> Reflecting on historical journeys</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-tree"></i></div>
+                <h3>Vlek Conservation Centre</h3>
+                <p>Our annual visit to Vlek Conservation Centre provides hands-on environmental education:</p>
+                <ul>
+                    <li>Ecosystem exploration and biodiversity studies</li>
+                    <li>Wildlife conservation awareness</li>
+                    <li>Environmental sustainability workshops</li>
+                    <li>Outdoor team-building activities</li>
+                    <li>Nature-inspired art and creativity sessions</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-utensils"></i></div>
+                <h3>Additional Enrichment Activities</h3>
+                <p>Beyond excursions, we offer a wide range of activities to develop diverse skills:</p>
+                <ul>
+                    <li>Annual Cultural Day celebrating Nigeria's diversity</li>
+                    <li>Science and Innovation Fairs</li>
+                    <li>Sports competitions and inter-house games</li>
+                    <li>Music and drama productions</li>
+                    <li>Community service projects</li>
+                    <li>Entrepreneurship market days</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="top-actions">
+            <a class="explore-btn" href="Index.html">Back to Home</a>
+            <a class="explore-btn" href="#academics">Jump to Academics</a>
+            <a class="explore-btn" href="#admissions">Jump to Admissions</a>
+            <a class="explore-btn" href="#activities">Jump to Activities</a>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">&copy; Vivflourish International School</div>
+    </footer>
+    <script>
+        (function(){
+            let lastScrollY = window.scrollY || 0;
+            const selectors = 'section, .card, .card-icon, h2, h3, p, ul, .top-actions, .explore-btn';
+            const candidates = Array.from(document.querySelectorAll(selectors)).filter(el => {
+                const r = el.getBoundingClientRect();
+                return !(r.width === 0 && r.height === 0) && getComputedStyle(el).display !== 'none';
+            });
+            candidates.forEach(el => el.classList.add('animate-on-scroll'));
+
+            let latestY = window.scrollY;
+            let ticking = false;
+            window.addEventListener('scroll', () => {
+                latestY = window.scrollY;
+                if (!ticking) {
+                    window.requestAnimationFrame(() => { lastScrollY = latestY; ticking = false; });
+                    ticking = true;
+                }
+            }, { passive: true });
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    const el = entry.target;
+                    const inView = entry.isIntersecting && entry.intersectionRatio > 0.12;
+                    const scrollingDown = window.scrollY > lastScrollY;
+                    if (inView) {
+                        el.classList.add('in-view');
+                        if (scrollingDown) { el.classList.remove('from-top'); el.classList.add('from-bottom'); }
+                        else { el.classList.remove('from-bottom'); el.classList.add('from-top'); }
+                        if (el.dataset.animDelay) el.style.transitionDelay = el.dataset.animDelay;
+                    } else {
+                        el.classList.remove('in-view');
+                        if (el.dataset.animDelay) el.style.transitionDelay = '';
+                    }
+                });
+                lastScrollY = window.scrollY;
+            }, { threshold: [0, 0.12, 0.4] });
+
+            candidates.forEach(el => observer.observe(el));
+        })();
+    </script>
+</body>
+</html>
